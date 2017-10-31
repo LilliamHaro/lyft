@@ -54,3 +54,21 @@ header a {
   text-decoration: none;
   color: #fff;
 }
+
+
+
+footer {
+  background-color: #333447;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer-information {
+  outline: 1px solid red;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #ff00bf;
+}
