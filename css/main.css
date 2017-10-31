@@ -186,61 +186,86 @@ main {
  }
 
 
-/*CLASES REUTILIZABLES*/
-.color-white {
-  color: #fff;
-}
-footer {
-  background-color: #333447;
-  width: 100%;
-  height: 545px;
-  display: inline-block;
-}
-footer a {
-  text-decoration: none;
-  color: #fff;
-}
-.footer-information {
-  overflow: auto;
-  width: 100%;
-  margin: auto; /*para centrar*/
-}
-footer a:hover {
-  text-decoration: underline;
-  color: #ff00bf;
-}
-.footer-list {
-  overflow: auto;
-}
-.column-footer {
-  float: left;
-  line-height: 50px;
-  margin-right: 130px;
-  margin-top: 60px;
-}
-.footer-images-list {
-  list-style: none;
-}
-.footer-images-list img {
-  width: 127px;
-  height: 40px;
-}
-.final-footer {
-  display: block;
-}
-.footer-icon-list {
+ /*CLASES REUTILIZABLES*/
+ .color-white {
+   color: #fff;
+ }
+ .color-snow {
+   color: #bfc7d9;
+ }
 
-  color: #fff;
-  list-style: none;
-  display: inline-block;
-}
-.footer-icon-list li {
-  text-align: center;
-  border: 1px solid #fff;
-  display: inline-block;
-  padding: 16px;
-  /*border-radius: 200px 200px 200px 200px;
--moz-border-radius: 200px 200px 200px 200px;
--webkit-border-radius: 200px 200px 200px 200px;
-padding: 15px;*/
-}
+
+
+   /*CONFIGURANDO FOOTER*/
+
+ footer {
+   background-color: #333447;
+   width: 100%;
+   height: 545px;
+   display: inline-block;
+ }
+ footer a {
+   text-decoration: none;
+   color: #fff;
+ }
+ .footer-information {
+   overflow: auto;
+   width: 100%;
+   margin: auto; /*para centrar*/
+ }
+ footer a:hover {
+   text-decoration: underline;
+   color: #ff00bf;
+ }
+ .footer-list {
+   overflow: auto;
+ }
+ .column-footer {
+   float: left;
+   line-height: 50px;
+   margin-right: 130px;
+   margin-top: 60px;
+   margin-left: 100px;
+ }
+ .footer-images-list {
+   list-style: none;
+ }
+ .footer-images-list img {
+   width: 127px;
+   height: 40px;
+   margin-top: 36px;
+ }
+ .final-footer {
+   display: block;
+   clear: left;
+   text-align: center;
+ }
+ .footer-icon-list {
+   margin-top: 20px;
+   color: #fff;
+   list-style: none;
+   display: inline-block;
+ }
+ .footer-icon-list li {
+   text-align: center;
+   border: 1px solid #fff;
+   display: inline-block;
+   padding: 16px;
+   height: 50px;
+   width: 50px;
+   margin:  15px 15px;
+   border-radius: 200px 200px 200px 200px;
+   -moz-border-radius: 200px 200px 200px 200px;
+   -webkit-border-radius: 200px 200px 200px 200px;
+ }
+ .footer-bottom {
+   margin-top: 19px;
+   text-align: center;
+ }
+ .footer-bottom p {
+   margin-top: 30px;
+ }
+ hr {
+   width: 764px;
+   margin-left: 290px;
+ }
