@@ -1,42 +1,31 @@
 # Lyft
------
 
 ## Objetivo:
-En este proyecto replicaremos el sitio website  [sitio original](https://www.lyft.com/)
-## Vista Previa
+En este proyecto replicaremos el website [sitio original](https://www.lyft.com/),utilizando los conocimientos que adquirimos con el material teorico-práctico .
+
+
+## Vista Previa:
+---------------
+
 ![Lyft Website](docs/fullpage.png)
 
 
-## Consideraciones
+## Consideraciones :
+---------
 
-*
-
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
+* El footer luce de esta manera :
 
   ![Lyft - Footer](docs/footer.gif)
 
+## Nuevos conceptos :
+-----------
+  - Para agregar los videos, usamos la etiqueta `iframe`,
+  pegando los links de los videos ,en el orden que nos indica el website original.
 
-*
+  - Para el formulario, usamos la etiqueta `form` e `input`.
 
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
+## Herramientas :
+-----
 
-* Puedes ver el,
-
-
-
-## A tener en cuenta
-
-Este reto será evaluado sobre lo siguiente:
-
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+* CSS3
+* HTML5
