@@ -59,16 +59,51 @@ header a {
 
 footer {
   background-color: #333447;
+  width: 100%;
+  height: 545px;
 }
 footer a {
   text-decoration: none;
   color: #fff;
 }
-footer-information {
-  outline: 1px solid red;
+.footer-information {
+  overflow: auto;
+  width: 100%;
+  margin: auto; /*para centrar*/
 }
-
 footer a:hover {
   text-decoration: underline;
   color: #ff00bf;
+}
+.footer-list {
+  overflow: auto;
+}
+.column-footer {
+  float: left;
+  line-height: 50px;
+  margin-right: 130px;
+  margin-top: 60px;
+}
+.footer-images-list {
+  list-style: none;
+}
+.footer-images-list img {
+  width: 127px;
+  height: 40px;
+}
+.final-footer {
+  display: block;
+  
+}
+.footer-icon-list {
+  color: #fff;
+  list-style: none;
+}
+.footer-icon-list li {
+/*border: 1px solid #fff;*/
+display: inline-block;
+/*border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+padding: 15px;*/
 }
