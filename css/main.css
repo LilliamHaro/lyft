@@ -152,6 +152,36 @@ main {
  .second-section img {
    max-width: 100%;
  }
+ .third-section, .four-section, .five-section {
+   width: 100%;
+   height: 400px;
+ }
+ .third-section-text, .five-section-text {
+   width: 300px;
+   margin-top: 50px;
+   margin-left: 70px;
+   display: inline-block;
+ }
+ .p1 {
+   font-size: 15px;
+   margin-bottom: 5px;
+ }
+ .third-section-text h2 {
+  margin-bottom: 15px;
+ }
+ .p2 {
+   font-size: 15px;
+ }
+ .four-section{
+  width: 300px;
+  margin-top: 50px;
+  margin-right: : 70px;
+  display: inline-block;
+ }
+ .video-rigth {
+   float: right;
+ }
+
 
 /*CLASES REUTILIZABLES*/
 .color-white {
