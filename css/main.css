@@ -172,14 +172,17 @@ main {
  .p2 {
    font-size: 15px;
  }
- .four-section{
+ .four-section-text{
   width: 300px;
-  margin-top: 50px;
-  margin-right: : 70px;
+  padding-top: 50px;
+  padding-right:70px;
   display: inline-block;
  }
  .video-rigth {
    float: right;
+ }
+ .video-left {
+   float: left;
  }
 
 
