@@ -5,7 +5,52 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
  }
  .uppercase-text {
- 
+   text-transform: uppercase;
  }
+ header {
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   padding-top: 40px;
+   background-color:#1f0f37;
+ }
+ .header-nav {
+   width: 80%;
+   margin: auto;
+   margin-bottom: 10px;
+ }
+.header-nav figure {
+  width: 60px;
+  height: 55px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.header-nav img {
+  max-width: 100%;
+}
+.login {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin-bottom: 25px;
+  float:right;
+  margin-right: 70px;
+}
+.header-options {
+  float: right;
+  list-style: none;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+.header-options li {
+  float: left;
+  margin-right: 45px;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+}
