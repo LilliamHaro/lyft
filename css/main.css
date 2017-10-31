@@ -54,9 +54,104 @@ header a {
   text-decoration: none;
   color: #fff;
 }
+main {
+  width: 100%;
+}
 
-
-
+.first-section {
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/images/hero.gif);
+}
+.div-form {
+  width: 40%;
+  float: right;
+  background-color: #fff;
+  margin-top: 115px;
+}
+.div-form form{
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-bottom: 135px;
+}
+.div-form form h1 {
+  font-size: 45px;
+  margin-bottom: 25px;
+  color: #352384;
+}
+.div-form h4 {
+  color: #352384;
+  margin-bottom: 35px;
+}
+.div-form input {
+  width: 75%;
+  font-size: 19px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 8px;
+  display: block;
+  margin-bottom: 45px;
+}
+.div-form button {
+  background-color: #ff00bf;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  font-size: 15px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+.div-form span {
+  color: #A9A9F5;
+}
+.div-form p {
+  font-size: 10px;
+  color: #A9A9F5;
+  margin-bottom: 10px;
+}
+.div-form p a {
+  color: #A9A9F5;
+  text-decoration: none;
+}
+.div-form span a {
+  color: #5882FA;
+}
+.second-section {
+  background-color:#5a237f;
+  width: 100%;
+  color: #fff;
+  overflow: auto;
+}
+.second-section-text {
+  padding-top: 100px;px;
+  padding-left: 150px;
+  display: inline-block;
+  width: 50%;
+}
+ .cartel h3 {
+   margin-bottom: 30px;
+   font-size: 25px;
+ }
+ .cartel p {
+   margin-bottom: 70px;
+ }
+ .second-section-image {
+   display: inline-block;
+   float: right;
+   width: 50%;
+ }
+ .second-section-image figure {
+   width: 100%;
+   padding: 30px 100px 0 60px;
+ }
+ .second-section img {
+   max-width: 100%;
+ }
 
 /*CLASES REUTILIZABLES*/
 .color-white {
@@ -101,7 +196,7 @@ footer a:hover {
   display: block;
 }
 .footer-icon-list {
-  
+
   color: #fff;
   list-style: none;
   display: inline-block;
