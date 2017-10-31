@@ -1,7 +1,7 @@
 # Lyft
 
 ## Objetivo:
-En este proyecto replicaremos el [website](https://www.lyft.com/),utilizando los conocimientos que adquirimos con el material teorico-práctico .
+En este proyecto replicaremos el [website](https://www.lyft.com/), utilizando los conocimientos que adquirimos con el material teorico-práctico .
 
 
 ## Vista Previa:
